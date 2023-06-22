@@ -22,6 +22,7 @@ public class EmpController {
     @RequestMapping("save")
     public void save(Emp emp){
         empService.save(emp);
+
     }
 
     //查询所有
